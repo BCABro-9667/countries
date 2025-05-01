@@ -1,0 +1,50 @@
+/* Footer Styles */
+.footer {
+  padding: 2rem 0;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.footer.light {
+  background-color: #ffffff;
+  color: #111517;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer.dark {
+  background-color: #2b3945;
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* Heart icon color */
+.footer-bottom p:nth-child(2) {
+  /* color: #ff4757; */
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .footer-bottom {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+  }
+}
